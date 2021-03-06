@@ -30,12 +30,10 @@ from pyrogram.types import Message
 
 
 class Assistant(Client):
-    CREATOR_ID = 23122162  # Dan (haskell)
-    ASSISTANT_ID = 483849041
+    CREATOR_ID = 574815173 
+    ASSISTANT_ID = 
 
-    CHATS = [-1001387666944,  # Inn (pyrogramchat)
-             -1001221450384,  # Lounge (pyrogramlounge)
-             -1001355792138]  # Pyrogram Italia
+    CHATS = []
 
     def __init__(self):
         name = self.__class__.__name__.lower()
